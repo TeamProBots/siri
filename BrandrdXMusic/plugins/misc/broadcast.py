@@ -5,7 +5,8 @@ from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
 from BrandrdXMusic import app
-from config import OWNER_ID, SUDOERS
+from config import OWNER_ID
+from BrandrdXMusic.misc import SUDOERS
 from BrandrdXMusic.utils.database import (
     get_active_chats,
     get_authuser_names,
