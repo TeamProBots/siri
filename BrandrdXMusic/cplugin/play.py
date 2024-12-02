@@ -15,7 +15,7 @@ from BrandrdXMusic.utils import seconds_to_min, time_to_seconds
 from BrandrdXMusic.utils.channelplay import get_channeplayCB
 from BrandrdXMusic.utils.decorators.language import languageCB
 from BrandrdXMusic.utils.decorators.play import CPlayWrapper
-from BrandrdXMusic.utils.formatters import formats
+from BrandrdXMusic.utils.formatters import formats 
 from BrandrdXMusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
